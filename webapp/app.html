@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EXDMessenger</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+</head>
+<body>
+    <div id="guilds">
+        <!-- <div class="guild">
+            <img class="guild-avatar" src="https://cdn.discordapp.com/icons/1059077434688929805/66bed43ad514815a46cd1dee9248587d.webp">
+        </div> -->
+    </div>
+    <div id="channels">
+        <h3 class="dm-title">Каналы</h3>
+        <div class="direct-message" onclick="Channel.openAndParse('server')">
+            <h3>Server</h3>
+            <p id="status-1">Глобальный чат сервера</p>
+        </div>
+    </div>
+    <div id="messages"></div>
+    <input type="text" id="message_type_box" placeholder="Напишите что нибудь в чат!">
+    <div id="profileOpenMy">
+        <h3>Загрузка</h3>
+        <p>Статус просто</p>
+    </div>
+    <!-- <div id="overlay-loading">
+        <h2>А вы знаете что?</h2>
+        <p>Первый dev билд!</p>
+    </div> -->
+    <script src='./assets/js/defineVars.js'></script>
+    <script src='./assets/js/Channel.js'></script>
+    <script src='./assets/js/userDataLoad.js'></script>
+</body>
+</html>
