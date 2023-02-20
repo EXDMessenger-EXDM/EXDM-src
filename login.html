@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EXDMessenger</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/login.css'>
+
+    <meta content="EXDM" property="og:title"/>
+    <meta content="Messenger for developers (And not only)" property="og:description"/>
+    <meta content="#660000" data-react-helmet="true" name="theme-color"/>
+</head>
+<body>
+    <div class="login-card">
+        <h1>С возвращением!</h1>
+        <h3>Мы так рады видеть вас снова!</h3>
+        <div id="login-card-content">
+            <input type="password" placeholder="Токен" id="tokenInput"><br><br>
+            <button onclick="LoginManagerChat.loginByToken()">Войти</button>
+            <button onclick="LoginManagerChat.register()">У меня нету аккаунта</button>
+        </div>
+    </div>
+    <script src='./assets/js/LoginManagerChat.js'></script>
+</body>
+</html>

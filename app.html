@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>EXDMessenger</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/main.css'>
+</head>
+<body>
+    <div id="guilds">
+        <!-- <div class="guild">
+            <img class="guild-avatar" src="https://cdn.discordapp.com/icons/1059077434688929805/66bed43ad514815a46cd1dee9248587d.webp">
+        </div> -->
+        <h6 class="dm-title">Мы откажемся от концепций серверов пока что</h6>
+    </div>
+    <div id="channels">
+        <div class="dm-button" onclick="Friends.open()">
+            <h3>Друзья</h3>
+            <p id="status-1">Список друзей</p>
+        </div>
+        <div class="dm-button">
+            <h3>EXDM+</h3>
+            <p id="status-1">Подписка EXDM+ и EXDM++</p>
+        </div>
+        <h3 class="dm-title">Каналы</h3>
+    </div>
+    <div id="messages"></div>
+    <p id="typing_text">aaa</p>
+    <input type="text" id="message_type_box" placeholder="Напишите что нибудь в чат!">
+    <div id="profileOpenMy">
+        <h3>Загрузка</h3>
+        <p>Статус просто</p>
+    </div>
+    <!-- <div id="overlay-loading">
+        <h2>А вы знаете что?</h2>
+        <p>Первый dev билд!</p>
+    </div> -->
+    <div class="modal" id="modal-ni" hidden="hidden">
+        <h1>Не реализовано</h1>
+        <p>Не реализовано :copyright: DragonFire</p>
+        <button onclick="document.getElementById('modal-ni').hidden = true">Закрыть</button>
+    </div>
+    <script src='./assets/js/defineVars.js'></script>
+    <script src='./assets/js/gateway.js'></script>
+    <script src='./assets/js/guildsListLoad.js'></script>
+    <script src='./assets/js/userDataLoad.js'></script>
+    <script src='./assets/js/Channel.js'></script>
+    <script src='./assets/js/Friends.js'></script>
+</body>
+</html>
