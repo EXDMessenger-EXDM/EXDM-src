@@ -1,1 +1,0 @@
-// TODO: Code to load guilds list
