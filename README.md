@@ -1,4 +1,4 @@
-# EXDM/main
+# EXDM/main-api
 Полурабочая версия EXDM на PHP с использованием MySQL
 
 # ВНИМАНИЕ
