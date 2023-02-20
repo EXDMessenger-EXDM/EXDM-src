@@ -13,4 +13,6 @@
 
 Заходите по этому пути: ``/config/connection.php``, и настраиваете MySQL соединение
 
+Скачиваем файлы из ветки [main-frontend](https://github.com/EXDMessenger-EXDM/server-http/tree/main-frontend), создаём папку app, и перекидываем скачанные файлы в только что созданную папку app
+
 После настройки заходите на http://127.0.0.1/app
